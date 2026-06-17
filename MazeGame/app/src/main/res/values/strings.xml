@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MazeGame</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="you_found_the_exit_room">You found the exit room!</string>
+    <string name="you_win">YOU WIN!</string>
+    <string name="green_buttons_open_path_n_gray_buttons_wall">🟢 Green buttons = open path\n⚫ Gray buttons = wall</string>
+    <string name="start_game">START GAME</string>
+    <string name="find_the_exit_room_to_win">Find the exit room to win!</string>
+    <string name="maze_game">MAZE GAME</string>
+    <string name="down">▼ DOWN</string>
+    <string name="right">RIGHT ▶</string>
+    <string name="left">◀ LEFT</string>
+    <string name="up">▲ UP</string>
+    <string name="bitmask_0">Bitmask: 0</string>
+    <string name="room_0_0">Room: [0, 0]</string>
+</resources>

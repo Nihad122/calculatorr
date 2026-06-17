@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_win"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_found_the_exit_room"
+        android:textSize="18sp"
+        android:textColor="#9E9E9E"
+        android:layout_marginBottom="56dp"/>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="220dp"
+        android:layout_height="56dp"
+        android:text="@string/play_again"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="220dp"
+        android:layout_height="56dp"
+        android:text="@string/main_menu"
+        android:textSize="16sp"
+        android:backgroundTint="#455A64"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
